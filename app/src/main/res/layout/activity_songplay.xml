@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Songplay">
+    tools:context=".Songplay"
+    android:background="@drawable/background">
 
     <ImageView
         android:id="@+id/logo"
@@ -16,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logomusic" />
+        app:srcCompat="@drawable/itunes" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
